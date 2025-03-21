@@ -21,22 +21,22 @@ This system processes live video input, detects hand gestures, and translates th
 
 ## 📂 Folder Structure  
 sign-language-translator/
-│── data/                    # Folder containing gesture data
-│   ├── 0/                   # Images for gesture 0
-│   ├── 1/                   # Images for gesture 1
-│   └── 2/                   # Images for gesture 2
-│── images/                  # Images for documentation
-│   └── project_demo.gif     # Demo GIF
-│── .gitignore               # Git ignore file
-│── data.pickle              # Pickle file for processed data
-│── Dataset_creation.py      # Script for creating dataset
-│── image_collection.py      # Script for collecting images
-│── inference.py             # Script for real-time inference
-│── LICENSE                  # License file
-│── main.py                  # Main script to run the translator
-│── model.p                  # Trained model file
-│── README.md                # Project documentation
-└── train_model.py           # Script for training the model
+│── data/                    
+│   ├── 0/                   
+│   ├── 1/                   
+│   └── 2/                   
+│── images/                  
+│   └── project_demo.gif     
+│── .gitignore               
+│── data.pickle              
+│── Dataset_creation.py      
+│── image_collection.py      
+│── inference.py             
+│── LICENSE                  
+│── main.py                  
+│── model.p                  
+│── README.md                
+└── train_model.py           
 ---
 
 ## 🛠️ Installation  
